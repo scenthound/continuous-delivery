@@ -1,5 +1,5 @@
 FROM ubuntu:12.04
-MAINTAINER Mike Lee, "scenthound.sniff@gmail.com"
+MAINTAINER Mike Leea, "scenthound.sniff@gmail.com"
  
 RUN echo deb http://archive.ubuntu.com/ubuntu precise universe >> /etc/apt/sources.list
 RUN apt-get update && apt-get clean
