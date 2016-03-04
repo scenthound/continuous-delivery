@@ -8,7 +8,7 @@ RUN apt-get install -q -y wget
 RUN apt-get install -q -y unzip
 
 #JDK
-RUN apt-get install -q -y openjdk-7-jre-headless && apt-get clean
+RUN apt-get install -q -y openjdk-7-jdk && apt-get clean
 ENV JAVA_HOME /usr/lib/jvm/java-7-openjdk-amd64
 
 # GIT
